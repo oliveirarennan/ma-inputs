@@ -1,0 +1,23 @@
+@import "../utils/index.css";
+@import "../components/SearchInput.css";
+@import "../components/ActionInput.css";
+@import "../components/ResponseInput.css";
+@import "../components/NewChatInput.css";
+
+
+#container{
+  width: 100vw;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+}
+#action-input{
+  margin-top: 16px;
+}
+
+#response-input{
+  margin-top: 16px;
+}
+#new-chat-input{
+  margin-top: 16px;
+}

@@ -1,0 +1,17 @@
+.StatusBar{
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 14px;
+  padding-left: 21px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.StatusBar-time{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+}

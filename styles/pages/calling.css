@@ -1,0 +1,36 @@
+@import "../utils/index.css";
+@import "../components/StatusBar.css";
+@import "../components/SupportIcons.css";
+@import "../components/PersonInfo.css";
+@import "../components/CallControls.css";
+
+body{
+  position: relative;
+}
+
+.bg-calling{
+  width: 375px;
+  height: 814px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: #000000;
+  opacity: 1;
+}
+
+.PersonInfo{
+  margin-top: 150px;
+}
+.CallControls{
+  margin-top: 337px;
+  justify-content: center;
+}
+
+.SupportIcons{
+  margin-top: 10px;
+}
+.effect{
+  position: absolute;
+  left: 45%;
+  margin-top: 296px;
+}

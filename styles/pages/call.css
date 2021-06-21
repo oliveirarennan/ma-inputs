@@ -1,0 +1,31 @@
+@import "../utils/index.css";
+@import "../components/StatusBar.css";
+@import "../components/PersonInfo.css";
+@import "../components/CallControls.css";
+
+body{
+  position: relative;
+}
+
+.bg-call{
+  width: 375px;
+  height: 814px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: #000000;
+  opacity: .9;
+  filter: blur(17px);
+}
+
+.PersonInfo{
+  margin-top: 150px;
+}
+.CallControls{
+  margin-top: 357px;
+}
+.chat{
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}

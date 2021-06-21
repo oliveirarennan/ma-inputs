@@ -1,8 +1,13 @@
 @import "../utils/index.css";
+@import "../components/StatusBar.css";
 @import "../components/SearchInput.css";
 @import "../components/ActionInput.css";
 @import "../components/ResponseInput.css";
 @import "../components/NewChatInput.css";
+
+@import "../components/PersonInfo.css";
+@import "../components/CallControls.css";
+
 
 
 #container{

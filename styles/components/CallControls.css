@@ -1,0 +1,12 @@
+.CallControls{
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 33px;
+}
+.CallControls img{
+  width: 51px;
+  height: 51px;
+}
